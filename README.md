@@ -1,2 +1,7 @@
-# css-examples
-Some CSS examples of things I often use in projects
+# Gwilym's css-examples repo
+Some examples of things I often use in my projects:
+
+### CSS and image handling
+
+  * [Full page slideshow to handle different sized images](http://htmlpreview.github.io/?https://github.com/netm/css-examples/blob/master/full_page_slideshow.html) - needs aspect classes
+  * [Full page slideshow to handle different sized images](http://htmlpreview.github.io/?https://github.com/netm/css-examples/blob/master/background-cover.html) - needs aspect classes
