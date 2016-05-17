@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<style>
+			p {
+				width: 500px;
+				margin: 20px auto 0;
+				text-align: center;
+			}
+			.card {
+				width: 500px;
+				height: 350px;
+				border: 1px solid black;
+				margin: 30px auto 70px;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.portrait {
+				background-image: url(./imgs/portrait_1000_2000.png);
+				background-size: 100% auto;
+			}
+			.landscape {
+				background-image: url(./imgs/landscape_2000_1000.png);
+				background-size: auto 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p>
+			Probably the safest way to handle if you want it to stretch to fit height in landscape and width in portrait.
+			Thing is you need to be able to add a class based on aspect ratio, and we have this (it's what I used in the InvitedUser)
+		</p>
+		<div class="card portrait"></div>
+		<div class="card landscape"></div>
+	</body>
+
+</html>
