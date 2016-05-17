@@ -1,6 +1,9 @@
 <html>
 	<head>
 		<style>
+			body {
+				font-family: sans-serif;
+			}
 			p {
 				width: 500px;
 				margin: 20px auto 0;
@@ -27,8 +30,7 @@
 
 	<body>
 		<p>
-			Probably the safest way to handle if you want it to stretch to fit height in landscape and width in portrait.
-			Thing is you need to be able to add a class based on aspect ratio, and we have this (it's what I used in the InvitedUser)
+			Fit portrait to width and vertically center, cropping at top and bottom. Fit landscape to height, cropping left and right.
 		</p>
 		<div class="card portrait"></div>
 		<div class="card landscape"></div>
