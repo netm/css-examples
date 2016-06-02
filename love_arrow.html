@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<style>
+			body {
+				font-family: sans-serif;
+			}
+			.loveArrow {
+				display: flex; /* add mixin */
+				align-items: center;
+				justify-content: center;
+				position: relative;
+				background-color: red;
+				color: #fff;
+				height: 50px;
+				width: 200px;
+				font-size: 14px;
+				padding: 20px 10px 20px 30px;
+			}
+			.loveArrow span {
+				font-size: 1.2em;
+				line-height: 1.3em;
+			}
+			.loveArrow:after {
+				border: solid transparent;
+				border-width: 45px;
+  				border-left-color: red;
+				content: ' ';
+				height: 0;
+				left: 100%;
+				position: absolute;
+				width: 0px;
+				top: 0px;
+			}
+			.loveArrow.big {
+				height: 70px;
+				width: 250px;
+				font-size: 18px;
+			}
+			.loveArrow.big:after {
+				border-width: 55px;
+			}
+
+			hr {
+				margin: 50px 0px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="loveArrow">
+			<span>
+				Love the photo to show them you have seen it
+			</span>
+		</div>
+
+		<hr>
+
+		<div class="loveArrow big">
+			<span>
+				Love the photo to show them you have seen it
+			</span>
+		</div>
+
+	</body>
+
+</html>
